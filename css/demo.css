@@ -563,6 +563,7 @@ iframe{
 	font-family: 'Noto Sans KR', sans-serif;
 	width: 160px;
 	transition: transform 0.3s ease-out;
+	color: #fff;
 	background-color: rgba(0, 0, 0, 0.527);
 	background-size: cover;
 }
@@ -576,6 +577,7 @@ iframe{
 	font-family: 'Noto Sans KR', sans-serif;
 	width: 170px;
 	transition: transform 0.3s ease-out;
+	color: #fff;
 	background-color: rgba(0, 0, 0, 0.527);
 	background-size: cover;
 }
@@ -588,6 +590,7 @@ iframe{
 	cursor: default;
 	font-family: 'Noto Sans KR', sans-serif;
 	width: 150px;
+	color: #fff;
 	transition: transform 0.3s ease-out;
 	background-color: rgba(0, 0, 0, 0.527);
 	background-size: cover;
