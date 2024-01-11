@@ -823,15 +823,21 @@ iframe{
 	}
 }
 
-@media screen and (max-width: 28em) {
+@media screen and (max-width: 22em) {
+	.content--layout {
+		transform: scale3d(0.55,0.55,1);
+	}	
+} 
+
+/* /* @media screen and (max-width: 28em) {
 	.content--layout {
 		transform: scale3d(0.5,0.5,1);
-	}
-}
+	}	
+} */
 
 /* 화면너비 0~512px */
-@media(max-width:512px){
+/* @media(max-width:512px){
 	.content__desc{
-		font-size: 1rem;
+		font-size: 1.4rem;
 	}
-}
+} */ 

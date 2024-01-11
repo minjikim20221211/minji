@@ -11,6 +11,11 @@
     background: var(--background-color-3);
 }
 
+.pater img {
+	max-width: 140px;
+	padding-right: 0.5rem;
+}
+
 .pater,
 .pater:hover {
 	color: #fff;
@@ -109,5 +114,12 @@
 	}
 	.pater:hover .pater__deco {
 		transform: translate3d(0,0,0) scale3d(1,1,1);
+	}
+}
+
+@media screen and (max-width: 28em) {
+	.pater img {
+		max-width: 120px;
+		padding: 0 0.5rem;
 	}
 }
